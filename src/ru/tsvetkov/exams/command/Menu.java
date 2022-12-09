@@ -10,7 +10,7 @@ import ru.tsvetkov.exams.InitBlock;
 public class Menu {
     private InitBlock initBlock = new InitBlock();
     private String nameBlock;
-    BinHandler<String> binHandler = new BinHandler<>();
+    private BinHandler<String> binHandler = new BinHandler<>();
     public void startGame(String nameBlock){
         initBlock.init();
         Block block = initBlock.getMap().get(nameBlock);

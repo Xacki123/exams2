@@ -2,7 +2,7 @@ package ru.tsvetkov.exams.command;
 
 public class Start implements Command{
     private Menu menu;
-    String nameBlock;
+    private String nameBlock;
 
 
     public Start(Menu menu, String nameBlock) {
